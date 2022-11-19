@@ -32,6 +32,17 @@ svg {
       top: 0;
       z-index: 0;
 }
+  .message {
+    width:40%;
+    padding:5%;
+    margin:auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    color:black;
+    opacity:inherit;
+
+  }
 
   .btn {
       position: fixed;
