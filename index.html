@@ -346,9 +346,12 @@
     <script src="assets/para.js"></script>
     
     <!--<script>window.scrollTo({ left: 0, top: document.body.scrollHeight, behavior: "smooth" });</script>-->
-    <script> function pageScroll() {
+    <script> 
+        var plyrBtn = document.getElementById('plyrBtn');
+        function pageScroll() {
         window.scrollBy(0,1);
         scrolldelay = setTimeout(pageScroll, 0);
+        plyrBtn.classList.toggle('fade');
 }
     
     </script>
