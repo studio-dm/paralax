@@ -9,7 +9,7 @@ function callVideo(videoID){
     document.getElementById("vid1").insertAdjacentHTML("beforeend", playerTemplate);
 }
 
-const musicVideo = ["Iss9xKyqAeA", "syIUmrSJWAU", "u8pVZ5hTGJQ", "4aeETEoNfOg", "LCdltGg4EzM", "dVM8_jAL86w"];
+const musicVideo = ["Iss9xKyqAeA", "syIUmrSJWAU", "u8pVZ5hTGJQ", "4aeETEoNfOg", "LCdltGg4EzM", "dVM8_jAL86w", "evN6DIGPIJM", "3JFcRRftxzM"];
 const random = Math.floor(Math.random() * musicVideo.length);
 callVideo(musicVideo[random]);
 
