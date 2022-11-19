@@ -45,12 +45,14 @@ svg {
     color:black;
   }
   #plyrBtn{
-    opacity:0.5;
-    
+    opacity:1; 
+    transition: opacity 1s;
   }
-  
+ #plyrBtn.fade {
+    opacity: 0;
+  }
  #plyrBtn:hover{
-    opacity:1;
+    opacity:0.5;
   }
   #message {
     display:block;
