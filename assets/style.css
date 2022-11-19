@@ -33,15 +33,27 @@ svg {
       z-index: 0;
 }
   .message {
-    width:50%;
-    padding:5%;
+    position:absolute;
+    z-index: 9999;
+    top: 25%;
+    width:40%;
+    left:30%;
     margin:auto;
-    text-align: left;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12pt;
+    font-size:20pt;
     color:black;
-    opacity:inherit;
+    opacity:0.5;
 
+
+  }
+ .message:hover{
+    opacity:1;
+    top:25.5%;
+    left:30.1%
+  }
+  #message {
+    display:block;
   }
 
   .btn {
@@ -62,8 +74,12 @@ svg {
       z-index: 11;
   }
 
+  .btn_ps {
+    border:none;
+  }
+
   .btn_works {
-      left: 100px;
+      left: 150px;
       right: unset;
       text-decoration: none;
   }
