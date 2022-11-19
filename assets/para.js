@@ -191,6 +191,10 @@ scene3.to("#bg2-grad", { attr: { r: 500 } }, 0)
 
 scene3.to("#vid1", {display: "block"}, { opacity: 1})
 scene3.fromTo("#vid1", { opacity: 0 }, { opacity: 0.7, y:-300 }, 0.3)
+scene3.to("#dave", {display: "block"}, { opacity: 1})
+scene3.fromTo("#dave", { opacity: 0 }, { opacity: 0.7}, 0.3)
+scene3.to("#fullscr", {display: "block"}, { opacity: 1})
+scene3.fromTo("#fullscr", { opacity: 0 }, { opacity: 0.7 }, 0.3)
 
 
 /*   falling star   */
