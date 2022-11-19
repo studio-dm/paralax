@@ -36,21 +36,22 @@ svg {
     position:absolute;
     z-index: 9999;
     top: 25%;
-    width: 156px;;
-    left:42%;
+    width: 100%;;
+    left:0;
     margin:auto;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:20pt;
     color:black;
-    opacity:0.5;
-
-
+    opacity:0;
   }
- .message:hover{
+  #plyrBtn{
+    opacity:0.5;
+    
+  }
+  
+ #plyrBtn:hover{
     opacity:1;
-    top:25.5%;
-    left:42.1%
   }
   #message {
     display:block;
