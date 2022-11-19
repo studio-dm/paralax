@@ -76,6 +76,7 @@ svg {
 
   .btn_ps {
     border:none;
+    background-color: none;    
   }
 
   .btn_works {
