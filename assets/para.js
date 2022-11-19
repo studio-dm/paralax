@@ -190,7 +190,7 @@ scene3.to("#bg2-grad", { attr: { cy: 600 } }, 0)
 scene3.to("#bg2-grad", { attr: { r: 500 } }, 0)
 
 scene3.to("#vid1", {display: "block"}, { opacity: 1 })
-scene3.fromTo("#vid1", { opacity: 0 }, { opacity: 0.7, y:-350 }, 0.3)
+scene3.fromTo("#vid1", { opacity: 0 }, { opacity: 0.7, y:-500 }, 0.3)
 
 
 /*   falling star   */
