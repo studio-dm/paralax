@@ -37,7 +37,7 @@ svg {
     z-index: 9999;
     top: 25%;
     width: 156px;;
-    left:45%;
+    left:42%;
     margin:auto;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -50,7 +50,7 @@ svg {
  .message:hover{
     opacity:1;
     top:25.5%;
-    left:45.1%
+    left:42.1%
   }
   #message {
     display:block;
