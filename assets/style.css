@@ -33,12 +33,12 @@ svg {
       z-index: 0;
 }
   .message {
-    width:40%;
+    width:45%;
     padding:5%;
     margin:auto;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14pt;
+    font-size: 12pt;
     color:black;
     opacity:inherit;
 
@@ -63,7 +63,7 @@ svg {
   }
 
   .btn_works {
-      left: 150px;
+      left: 100px;
       right: unset;
       text-decoration: none;
   }
