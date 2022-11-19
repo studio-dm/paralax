@@ -1,8 +1,11 @@
 function callVideo(videoID){
     const playerTemplate = `
-    <iframe width="280" height="158" src="https://www.youtube.com/embed/?autoplay=1&controls=0&playlist=${videoID}&color=white"
-        frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/?autoplay=1&controls=0&playlist=${videoID}&color=white"
+       frameborder="0" allowfullscreen></iframe>
     `;
+    //const playerTemplate = `
+    //<img src="assets/PlayStation-Emblem.png" width="500">
+   // `;
     document.getElementById("vid1").insertAdjacentHTML("beforeend", playerTemplate);
 }
 
@@ -15,12 +18,17 @@ var txt = 'Lorem ipsum dummy text blabla Lorem ipsum dummy text blabla Lorem ips
 var howFast = 50;
 
 function typeWriter() {
+
   if (i < txt.length) {
     document.getElementById("message").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, howFast);
-   
-  }
+    document.getElementById("message").style.display = "block"; 
+  
+}else{
+  
+  
   window.scrollTo(0, 0);
-  document.getElementById("message").innerHTML=="";
+}
+  
 }
