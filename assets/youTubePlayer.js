@@ -1,6 +1,6 @@
 function callVideo(videoID){
     const playerTemplate = `
-    <iframe width="280" height="157" src="https://www.youtube.com/embed/?autoplay=1&controls=0&playlist=${videoID}&color=white"
+    <iframe width="${screen.width}" height="${screen.height}" src="https://www.youtube.com/embed/?autoplay=1&controls=0&playlist=${videoID}&color=white"
        frameborder="0" allowfullscreen></iframe>
     `;
     //const playerTemplate = `
