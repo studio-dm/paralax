@@ -8,10 +8,12 @@ function callVideo(videoID){
    // `;
     document.getElementById("vid1").insertAdjacentHTML("beforeend", playerTemplate);
 }
-
+const playList = "'3JFcRRftxzM','evN6DIGPIJM','mCHUw7ACS8o', 'NAOKzvL8dgk'"
+//Array for single play randomly
 const musicVideo = ["Iss9xKyqAeA", "syIUmrSJWAU", "u8pVZ5hTGJQ", "4aeETEoNfOg", "LCdltGg4EzM", "evN6DIGPIJM", "3JFcRRftxzM"];
 const random = Math.floor(Math.random() * musicVideo.length);
-callVideo(musicVideo[random]);
+//callVideo(musicVideo[random]);
+callVideo(playList);
 
 var i = 0;
 var txt = 'Lorem ipsum dummy text blabla Lorem ipsum dummy text blabla Lorem ipsum dummy text blabla Lorem ipsum dummy text blabla.';
