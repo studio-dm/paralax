@@ -43,16 +43,16 @@ svg {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:20pt;
     color:black;
+    
   }
-  #plyrBtn{
-    opacity:1; 
-    transition: opacity 1s;
-  }
- #plyrBtn.fade {
-    opacity: 0;
-  }
- #plyrBtn:hover{
+  .plyrBtn{
     opacity:0.5;
+    display:none;
+    
+  }
+  
+ .plyrBtn:hover{
+    opacity:1;
   }
   #message {
     display:block;
